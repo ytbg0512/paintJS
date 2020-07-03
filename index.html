@@ -5,6 +5,28 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+        <div class="controls__range">
+            <input type="range" id="jsRange" min="0.1" max="10" value="5" step="0.1" />
+        </div>
+        <div class="controls__btns">
+            <button id="jsMode">채우기</button>
+            <button id="jsSave">저장하기</button>
+        </div>
+        <div class="controls__colors" id="jsColors">
+            <div class="controls__color jsColor" style="background-color: black;"></div>
+            <div class="controls__color jsColor" style="background-color: white;"></div>
+            <div class="controls__color jsColor" style="background-color: #eb2f06; box-shadow: 0px 4px 6px rgba(235, 38, 6, 0.7);"></div>
+            <div class="controls__color jsColor" style="background-color: #F79F1F; box-shadow: 0px 4px 6px rgba(247, 159, 31, 0.7);"></div>
+            <div class="controls__color jsColor" style="background-color: #FFC312; box-shadow: 0px 4px 6px rgba(255, 195, 18, 0.7);"></div>
+            <div class="controls__color jsColor" style="background-color: #4cd137; box-shadow: 0px 4px 6px rgba(76, 209, 55, 0.7);"></div>
+            <div class="controls__color jsColor" style="background-color: #00a8ff; box-shadow: 0px 4px 6px rgba(0, 168, 255, 0.7);"></div>
+            <div class="controls__color jsColor" style="background-color: #3742fa; box-shadow: 0px 4px 6px rgba(55, 66, 250, 0.7);"></div>
+            <div class="controls__color jsColor" style="background-color: #4834d4; box-shadow: 0px 4px 6px rgba(72, 52, 212, 0.7);"></div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
