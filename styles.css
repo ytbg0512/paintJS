@@ -54,10 +54,15 @@ footer {
     color: rgba(0, 0, 0, 0.9);
     font-weight: 700;
     font-size: .8rem;
+    transition: all .2s ease;
 }
 
 .controls__btns button:active {
     transform: scale(0.98);
+}
+
+.controls__btns button:hover {
+    transform: scale(1.1);
 }
 
 .controls {
@@ -78,6 +83,15 @@ footer {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
     margin: 5px;
     cursor: pointer;
+    transition: all .2s ease;
+}
+
+.controls__colors .controls__color:hover {
+    transform: scale(1.2);
+}
+
+.controls__colors .controls__color:active {
+    transform: scale(0.98);
 }
 
 .controls .controls__range {
