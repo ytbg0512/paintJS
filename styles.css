@@ -57,12 +57,12 @@ footer {
     transition: all .2s ease;
 }
 
-.controls__btns button:active {
-    transform: scale(0.98);
-}
-
 .controls__btns button:hover {
     transform: scale(1.1);
+}
+
+.controls__btns button:active {
+    transform: scale(0.98);
 }
 
 .controls {
